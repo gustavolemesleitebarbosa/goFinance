@@ -1,10 +1,20 @@
 {
   "expo": {
     "name": "goFinance",
-    "slug": "goFinance",
+    "slug": "gofinance",
+    "scheme": "gofinance",
     "version": "1.0.0",
     "assetBundlePatterns": [
       "**/*"
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "4a07caa4-e91a-4beb-9340-2fd0240ffee6"
+      }
+    },
+    "owner": "gustavo-brain",
+    "ios": {
+      "bundleIdentifier": "org.name.goFinance"
+    }
   }
 }
